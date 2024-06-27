@@ -1,7 +1,41 @@
 body{
     margin: 0;
-    background-color: blue;
+    background-color:#666666;
 }
-h1{
-    font-size: 60px;
+.about_us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 44px 0px 30px;
 }
+
+.about_col{
+    max-width:40%;
+    padding: 90px;
+}
+.about_col h1{
+    font-size: 40px;
+}
+.about_col a{
+    list-style: none;
+}
+
+.about_col button{
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    margin-left: 140px;
+    margin-top: 20px;
+
+}
+.about-colm{
+    max-width: 40%;
+}
+.about_colm img{
+     width:90%;
+     height: auto;
+     padding: 10px;
+     border-radius: 1px;
+} 
